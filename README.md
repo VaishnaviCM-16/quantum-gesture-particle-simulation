@@ -8,15 +8,15 @@ A browser-based interactive graphics project that combines computer vision, gest
 Built with **HTML5, CSS3, JavaScript, Canvas API, and MediaPipe Hands**.
 ##  Project Gallery
 
-### 🖐️ Open Palm — Repulsor Mode
+###  Open Palm — Repulsor Mode
 
 ![Open palm gesture — Repulsor mode](open-palm.png)
 
-### ✊ Closed Fist — Black Hole Mode
+###  Closed Fist — Black Hole Mode
 
 ![Closed fist gesture — Black Hole mode](closed-fist.png)
 
-### 🤏 Pinch — Quantum Swirl Mode
+###  Pinch — Quantum Swirl Mode
 
 ![Pinch gesture — Quantum Swirl mode](pinch.png)
 
@@ -31,7 +31,7 @@ Built with **HTML5, CSS3, JavaScript, Canvas API, and MediaPipe Hands**.
 - **Futuristic User Interface** — Features a dark theme, glass-inspired panels, neon accents, and an on-screen gesture guide.
 - **Responsive Canvas** — Resizes the animation canvas to match the browser window.
 
-## 🖐️ Gesture Controls
+##  Gesture Controls
 
 | Hand gesture | Particle behavior | Color theme |
 |---|---|---|
@@ -94,7 +94,7 @@ quantum-gesture-particle-simulation/
 
 The main HTML file contains the page structure, CSS styling, JavaScript logic, particle simulation, and MediaPipe integration.
 
-## 🎓 What This Project Demonstrates
+##  What This Project Demonstrates
 
 - Integrating a browser-based computer vision library.
 - Working with hand landmarks and geometric gesture detection.
