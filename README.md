@@ -1,4 +1,4 @@
-# ⚛️ Quantum Gesture Particle Simulation
+#  Quantum Gesture Particle Simulation
 
 quantum_v3.html
 ### Interact with a dynamic particle universe using hand gestures.
@@ -6,7 +6,7 @@ quantum_v3.html
 A browser-based interactive graphics project that combines computer vision, gesture recognition, and particle animation. Using a webcam, users can control the behavior of a glowing particle system through natural hand movements.
 
 Built with **HTML5, CSS3, JavaScript, Canvas API, and MediaPipe Hands**.
-## 📸 Project Gallery
+##  Project Gallery
 
 ### 🖐️ Open Palm — Repulsor Mode
 
@@ -21,7 +21,7 @@ Built with **HTML5, CSS3, JavaScript, Canvas API, and MediaPipe Hands**.
 ![Pinch gesture — Quantum Swirl mode](pinch.png)
 
 
-## ✨ Features
+##  Features
 
 - **Real-Time Hand Tracking** — Detects hand landmarks using MediaPipe Hands.
 - **Gesture-Based Controls** — Maps recognized hand gestures to particle effects.
@@ -42,7 +42,7 @@ Built with **HTML5, CSS3, JavaScript, Canvas API, and MediaPipe Hands**.
 
 > Gesture recognition is based on hand-landmark geometry. Results may vary with lighting, hand orientation, webcam quality, and tracking conditions. The peace-sign mode applies strong velocity damping rather than a mathematically complete freeze.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -54,7 +54,7 @@ Built with **HTML5, CSS3, JavaScript, Canvas API, and MediaPipe Hands**.
 | MediaPipe Camera Utils | Webcam frame capture and processing |
 | jsDelivr CDN | Delivery of external MediaPipe libraries |
 
-## ⚙️ How It Works
+##  How It Works
 
 1. **Camera input:** The browser captures webcam frames after the user grants permission.
 2. **Hand tracking:** MediaPipe Hands estimates hand landmarks from the frames.
@@ -64,7 +64,7 @@ Built with **HTML5, CSS3, JavaScript, Canvas API, and MediaPipe Hands**.
 
 The application does not require a dedicated backend server. It relies on browser APIs and externally loaded MediaPipe libraries.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Requirements
 
@@ -84,7 +84,7 @@ The application does not require a dedicated backend server. It relies on browse
 
 **Important:** Webcam access generally requires a secure context, such as `localhost` or an HTTPS website. Opening the HTML file directly may not work consistently across browsers.
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 quantum-gesture-particle-simulation/
@@ -104,7 +104,7 @@ The main HTML file contains the page structure, CSS styling, JavaScript logic, p
 - Handling webcam input and browser camera permissions.
 - Combining visual design with interactive functionality.
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - Add robust camera initialization and permission-error handling.
 - Improve gesture recognition stability and reduce accidental mode changes.
@@ -113,19 +113,19 @@ The main HTML file contains the page structure, CSS styling, JavaScript logic, p
 - Optimize rendering for lower-powered devices.
 - Add a live demo link and a short demonstration GIF or video.
 
-## 🔐 Privacy
+##  Privacy
 
 The application uses the webcam to recognize hand gestures. The application code does not implement a custom backend for uploading recorded video. MediaPipe dependencies are loaded externally, so their delivery and runtime behavior depend on those third-party libraries.
 
 Camera access is requested by the browser and requires user permission.
 
-## 📌 Project Status
+##  Project Status
 
 **Functional prototype — tested locally by the developer.**
 
 The experience may vary depending on the browser, camera, lighting, internet connection, and device performance.
 
-## 👩‍💻 Author
+##  Author
 
 Developed as a hands-on exploration of computer vision, interactive graphics, and gesture-controlled browser experiences.
 
